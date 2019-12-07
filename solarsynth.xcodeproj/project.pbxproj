@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8D25FB5239BDDEB00CF9AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D25FB4239BDDEB00CF9AF1 /* AppDelegate.swift */; };
+		D8D25FB7239BDDEB00CF9AF1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8D25FB6239BDDEB00CF9AF1 /* GameScene.sks */; };
+		D8D25FB9239BDDEB00CF9AF1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8D25FB8239BDDEB00CF9AF1 /* Actions.sks */; };
+		D8D25FBB239BDDEB00CF9AF1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D25FBA239BDDEB00CF9AF1 /* GameScene.swift */; };
+		D8D25FBD239BDDEB00CF9AF1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D25FBC239BDDEB00CF9AF1 /* GameViewController.swift */; };
+		D8D25FC0239BDDEB00CF9AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D25FBE239BDDEB00CF9AF1 /* Main.storyboard */; };
+		D8D25FC2239BDDF100CF9AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D25FC1239BDDF100CF9AF1 /* Assets.xcassets */; };
+		D8D25FC5239BDDF100CF9AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D25FC3239BDDF100CF9AF1 /* LaunchScreen.storyboard */; };
+		D8D25FD0239BDDF100CF9AF1 /* solarsynthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D25FCF239BDDF100CF9AF1 /* solarsynthTests.swift */; };
+		D8D25FDB239BDDF100CF9AF1 /* solarsynthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D25FDA239BDDF100CF9AF1 /* solarsynthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8D25FCC239BDDF100CF9AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D25FA9239BDDEB00CF9AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D25FB0239BDDEB00CF9AF1;
+			remoteInfo = solarsynth;
+		};
+		D8D25FD7239BDDF100CF9AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D25FA9239BDDEB00CF9AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D25FB0239BDDEB00CF9AF1;
+			remoteInfo = solarsynth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8D25FB1239BDDEB00CF9AF1 /* solarsynth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solarsynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D25FB4239BDDEB00CF9AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8D25FB6239BDDEB00CF9AF1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D8D25FB8239BDDEB00CF9AF1 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D8D25FBA239BDDEB00CF9AF1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D8D25FBC239BDDEB00CF9AF1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D8D25FBF239BDDEB00CF9AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8D25FC1239BDDF100CF9AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D25FC4239BDDF100CF9AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8D25FC6239BDDF100CF9AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D25FCB239BDDF100CF9AF1 /* solarsynthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = solarsynthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D25FCF239BDDF100CF9AF1 /* solarsynthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solarsynthTests.swift; sourceTree = "<group>"; };
+		D8D25FD1239BDDF100CF9AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D25FD6239BDDF100CF9AF1 /* solarsynthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = solarsynthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D25FDA239BDDF100CF9AF1 /* solarsynthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solarsynthUITests.swift; sourceTree = "<group>"; };
+		D8D25FDC239BDDF100CF9AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D25FAE239BDDEB00CF9AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D25FC8239BDDF100CF9AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D25FD3239BDDF100CF9AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D25FA8239BDDEB00CF9AF1 = {
+			isa = PBXGroup;
+			children = (
+				D8D25FB3239BDDEB00CF9AF1 /* solarsynth */,
+				D8D25FCE239BDDF100CF9AF1 /* solarsynthTests */,
+				D8D25FD9239BDDF100CF9AF1 /* solarsynthUITests */,
+				D8D25FB2239BDDEB00CF9AF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D25FB2239BDDEB00CF9AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D25FB1239BDDEB00CF9AF1 /* solarsynth.app */,
+				D8D25FCB239BDDF100CF9AF1 /* solarsynthTests.xctest */,
+				D8D25FD6239BDDF100CF9AF1 /* solarsynthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D25FB3239BDDEB00CF9AF1 /* solarsynth */ = {
+			isa = PBXGroup;
+			children = (
+				D8D25FB4239BDDEB00CF9AF1 /* AppDelegate.swift */,
+				D8D25FB6239BDDEB00CF9AF1 /* GameScene.sks */,
+				D8D25FB8239BDDEB00CF9AF1 /* Actions.sks */,
+				D8D25FBA239BDDEB00CF9AF1 /* GameScene.swift */,
+				D8D25FBC239BDDEB00CF9AF1 /* GameViewController.swift */,
+				D8D25FBE239BDDEB00CF9AF1 /* Main.storyboard */,
+				D8D25FC1239BDDF100CF9AF1 /* Assets.xcassets */,
+				D8D25FC3239BDDF100CF9AF1 /* LaunchScreen.storyboard */,
+				D8D25FC6239BDDF100CF9AF1 /* Info.plist */,
+			);
+			path = solarsynth;
+			sourceTree = "<group>";
+		};
+		D8D25FCE239BDDF100CF9AF1 /* solarsynthTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D25FCF239BDDF100CF9AF1 /* solarsynthTests.swift */,
+				D8D25FD1239BDDF100CF9AF1 /* Info.plist */,
+			);
+			path = solarsynthTests;
+			sourceTree = "<group>";
+		};
+		D8D25FD9239BDDF100CF9AF1 /* solarsynthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D25FDA239BDDF100CF9AF1 /* solarsynthUITests.swift */,
+				D8D25FDC239BDDF100CF9AF1 /* Info.plist */,
+			);
+			path = solarsynthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D25FB0239BDDEB00CF9AF1 /* solarsynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D25FDF239BDDF100CF9AF1 /* Build configuration list for PBXNativeTarget "solarsynth" */;
+			buildPhases = (
+				D8D25FAD239BDDEB00CF9AF1 /* Sources */,
+				D8D25FAE239BDDEB00CF9AF1 /* Frameworks */,
+				D8D25FAF239BDDEB00CF9AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = solarsynth;
+			productName = solarsynth;
+			productReference = D8D25FB1239BDDEB00CF9AF1 /* solarsynth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8D25FCA239BDDF100CF9AF1 /* solarsynthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D25FE2239BDDF100CF9AF1 /* Build configuration list for PBXNativeTarget "solarsynthTests" */;
+			buildPhases = (
+				D8D25FC7239BDDF100CF9AF1 /* Sources */,
+				D8D25FC8239BDDF100CF9AF1 /* Frameworks */,
+				D8D25FC9239BDDF100CF9AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D25FCD239BDDF100CF9AF1 /* PBXTargetDependency */,
+			);
+			name = solarsynthTests;
+			productName = solarsynthTests;
+			productReference = D8D25FCB239BDDF100CF9AF1 /* solarsynthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8D25FD5239BDDF100CF9AF1 /* solarsynthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D25FE5239BDDF100CF9AF1 /* Build configuration list for PBXNativeTarget "solarsynthUITests" */;
+			buildPhases = (
+				D8D25FD2239BDDF100CF9AF1 /* Sources */,
+				D8D25FD3239BDDF100CF9AF1 /* Frameworks */,
+				D8D25FD4239BDDF100CF9AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D25FD8239BDDF100CF9AF1 /* PBXTargetDependency */,
+			);
+			name = solarsynthUITests;
+			productName = solarsynthUITests;
+			productReference = D8D25FD6239BDDF100CF9AF1 /* solarsynthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D25FA9239BDDEB00CF9AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Nathan Billis";
+				TargetAttributes = {
+					D8D25FB0239BDDEB00CF9AF1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D8D25FCA239BDDF100CF9AF1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D8D25FB0239BDDEB00CF9AF1;
+					};
+					D8D25FD5239BDDF100CF9AF1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D8D25FB0239BDDEB00CF9AF1;
+					};
+				};
+			};
+			buildConfigurationList = D8D25FAC239BDDEB00CF9AF1 /* Build configuration list for PBXProject "solarsynth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8D25FA8239BDDEB00CF9AF1;
+			productRefGroup = D8D25FB2239BDDEB00CF9AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D25FB0239BDDEB00CF9AF1 /* solarsynth */,
+				D8D25FCA239BDDF100CF9AF1 /* solarsynthTests */,
+				D8D25FD5239BDDF100CF9AF1 /* solarsynthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D25FAF239BDDEB00CF9AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D25FC0239BDDEB00CF9AF1 /* Main.storyboard in Resources */,
+				D8D25FB7239BDDEB00CF9AF1 /* GameScene.sks in Resources */,
+				D8D25FC2239BDDF100CF9AF1 /* Assets.xcassets in Resources */,
+				D8D25FC5239BDDF100CF9AF1 /* LaunchScreen.storyboard in Resources */,
+				D8D25FB9239BDDEB00CF9AF1 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D25FC9239BDDF100CF9AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D25FD4239BDDF100CF9AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D25FAD239BDDEB00CF9AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D25FBB239BDDEB00CF9AF1 /* GameScene.swift in Sources */,
+				D8D25FBD239BDDEB00CF9AF1 /* GameViewController.swift in Sources */,
+				D8D25FB5239BDDEB00CF9AF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D25FC7239BDDF100CF9AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D25FD0239BDDF100CF9AF1 /* solarsynthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D25FD2239BDDF100CF9AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D25FDB239BDDF100CF9AF1 /* solarsynthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8D25FCD239BDDF100CF9AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D25FB0239BDDEB00CF9AF1 /* solarsynth */;
+			targetProxy = D8D25FCC239BDDF100CF9AF1 /* PBXContainerItemProxy */;
+		};
+		D8D25FD8239BDDF100CF9AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D25FB0239BDDEB00CF9AF1 /* solarsynth */;
+			targetProxy = D8D25FD7239BDDF100CF9AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8D25FBE239BDDEB00CF9AF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D25FBF239BDDEB00CF9AF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8D25FC3239BDDF100CF9AF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D25FC4239BDDF100CF9AF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D25FDD239BDDF100CF9AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8D25FDE239BDDF100CF9AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D25FE0239BDDF100CF9AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH78F4P62F;
+				INFOPLIST_FILE = solarsynth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nbillis.solarsynth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8D25FE1239BDDF100CF9AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH78F4P62F;
+				INFOPLIST_FILE = solarsynth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nbillis.solarsynth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8D25FE3239BDDF100CF9AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH78F4P62F;
+				INFOPLIST_FILE = solarsynthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nbillis.solarsynthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solarsynth.app/solarsynth";
+			};
+			name = Debug;
+		};
+		D8D25FE4239BDDF100CF9AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH78F4P62F;
+				INFOPLIST_FILE = solarsynthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nbillis.solarsynthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solarsynth.app/solarsynth";
+			};
+			name = Release;
+		};
+		D8D25FE6239BDDF100CF9AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH78F4P62F;
+				INFOPLIST_FILE = solarsynthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nbillis.solarsynthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = solarsynth;
+			};
+			name = Debug;
+		};
+		D8D25FE7239BDDF100CF9AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH78F4P62F;
+				INFOPLIST_FILE = solarsynthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nbillis.solarsynthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = solarsynth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D25FAC239BDDEB00CF9AF1 /* Build configuration list for PBXProject "solarsynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D25FDD239BDDF100CF9AF1 /* Debug */,
+				D8D25FDE239BDDF100CF9AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D25FDF239BDDF100CF9AF1 /* Build configuration list for PBXNativeTarget "solarsynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D25FE0239BDDF100CF9AF1 /* Debug */,
+				D8D25FE1239BDDF100CF9AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D25FE2239BDDF100CF9AF1 /* Build configuration list for PBXNativeTarget "solarsynthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D25FE3239BDDF100CF9AF1 /* Debug */,
+				D8D25FE4239BDDF100CF9AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D25FE5239BDDF100CF9AF1 /* Build configuration list for PBXNativeTarget "solarsynthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D25FE6239BDDF100CF9AF1 /* Debug */,
+				D8D25FE7239BDDF100CF9AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D25FA9239BDDEB00CF9AF1 /* Project object */;
+}
